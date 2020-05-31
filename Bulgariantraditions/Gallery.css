@@ -1,0 +1,164 @@
+.container{
+    width: 100%;
+    max-width: 100%;
+ 
+}
+.image-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 1.5rem;
+    grid-template-areas: 
+    'img-1 img-2 img-3 '
+    'img-4 img-5 img-6'
+    'img-7 img-8 img-9'
+    'img-10 img-11 img-12';
+    
+}
+.image-gallery a{
+     
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+ 
+ 
+.img-1{
+    grid-area: img-1;
+    max-width: 100%;
+    max-height: 15rem;
+    position: relative;
+    left: 50%;
+    background-image: url("images/iordanovden.jpg");
+}
+.img-1:hover{
+    opacity: 0.6;
+}
+.img-2{
+    grid-area: img-2;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/ceremony-kukeri.jpg");
+}
+.img-2:hover{
+    opacity: 0.6;
+}
+.img-3{
+    grid-area: img-3;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/jatva.jpg");
+}
+.img-3:hover{
+    opacity: 0.6;
+}
+.img-4{
+    grid-area: img-4;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/dances (2).jpg");
+}
+.img-4:hover{
+    opacity: 0.6;
+}
+.img-5{
+    grid-area: img-5;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/koledari.jpg");
+}
+.img-5:hover{
+    opacity: 0.6;
+}
+.img-6{
+    grid-area: img-6;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/Shipka.jpg");
+}
+.img-6:hover{
+    opacity: 0.6;
+}
+.img-7{
+    grid-area: img-7;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/kukeri.jpg");
+}
+.img-7:hover{
+    opacity: 0.6;
+}
+.img-8{
+    grid-area: img-8;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/dances.jpg");
+}
+.img-8:hover{
+    opacity: 0.6;
+}
+.img-9{
+    grid-area: img-9;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/eggs.jpg");
+}
+.img-9:hover{
+    opacity: 0.6;
+}
+.img-10{
+    grid-area: img-10;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/rozober.jpg");
+}
+.img-10:hover{
+    opacity: 0.6;
+}
+.img-11{
+    grid-area: img-11;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/dances (3).jpg");
+}
+.img-11:hover{
+    opacity: 0.6;
+}
+.img-12{
+    grid-area: img-12;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    max-height: 15rem;
+    background-image: url("images/lazarovden.jpg");
+}
+.img-12:hover{
+    opacity: 0.6;
+}

@@ -1,0 +1,179 @@
+*{
+  text-align: center;
+}
+#content  {
+  display: grib;
+  grid-gap: 10px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+#content  div{
+  background: green;
+  padding: 80px;
+}
+#content  div:nth-child(even){
+  background: red;
+}
+.parallax1 {
+ 
+background-image: url("https://www.gabrovodaily.info/wp-content/uploads/2019/05/etar.jpg");
+min-height: 400px; 
+min-width: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax2 { 
+background-image: url("https://www.vivus.bg/blog/wp-content/uploads/2017/07/Sedemte-rilski-ezera-1.jpg");
+min-height: 400px; 
+min-width: 100%;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.parallax {
+background-image: url(http://bgzona.net/zona/kartichki/images/thumbs/small_imenden_gergiovden_021.jpg);
+min-height: 500px; 
+min-width: 100%;
+background-attachment: fixed;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.img-comp-container {
+position: relative;
+min-width: 100%;
+height: 200px; 
+margin-right: 80%;
+}
+.img-comp-img {
+position: absolute;
+margin-right: 80%;
+min-width: 100%;
+height: auto;
+overflow:hidden;
+}
+.img-comp-img img {
+margin-right: 80%;
+}
+.img-comp-slider {
+position: absolute;
+z-index:9;
+cursor: ew-resize;
+width: 40px;
+height: 40px;
+background-color: #2196F3;
+opacity: 0.7;
+border-radius: 50%;
+}
+.color1-title{
+   
+  font-family: Century Gothic;
+  font-size: 90px;
+  color: red;
+}
+.color2-title{
+  font-family: Century Gothic;
+  font-size: 90px;
+  color: green;
+}
+.box1{
+  background-color: red;
+  width: 50%;
+  height: 400px ;
+}
+.text1{
+  color: white; 
+  font-size: 25px; 
+  font-family: Century Gothic;
+}
+.box2{
+  background-color:green ;
+  width: 50%; 
+  height: 400px;
+}
+.text2{
+  color: white;
+  font-size: 23px; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color-text1{
+  color: green; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 50px;
+}
+.color-text2{
+  color: red; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 50px;
+}
+.firstcolorflag{
+  background:white; width:100% ; height:35px ;
+}
+.secondcolorflag{
+  background:green; width:100% ; height:35px ;
+}
+.thirdcolorflag{
+  background:red; width:100% ; height:35px ;
+}
+.moto1{
+  color:#159628; 
+  text-align:center;
+  font-size:60px; 
+  font-family: Arial;
+}
+.moto2{
+  color:red; 
+  text-align:center;
+  font-size:30px; 
+  font-family: Arial;
+}
+.containers {
+  position: absolute;
+  left: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  
+}
+.titleone{
+ position: absolute;
+ bottom: 300px;
+ left: 250px;
+ text-align: justify;
+}
+.textone{
+ position: absolute;
+ bottom: 200px;
+ left: 200px;
+ width: 300px;
+ text-align: justify;
+}
+.titletwo{
+ position: absolute;
+ bottom: 300px;
+ left: 600px;
+ text-align: justify;
+}
+.texttwo{
+ position: absolute;
+ bottom: 200px;
+ left: 600px;
+ overflow: visible;
+ width: 200px;
+ text-align: justify;
+}
+.titlethree{
+ position: absolute;
+ bottom: 300px;
+ left: 900px;
+ text-align: justify;
+}
+.textthree{
+ position: absolute;
+ bottom: 200px;
+ left: 900px;  
+ text-align: justify;
+}
